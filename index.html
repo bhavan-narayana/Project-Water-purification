@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaPure | Sustainable Water Filtration</title>
+    <meta name="description"
+        content="Design and evaluation of a sustainable low-cost filtration system for water purification.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">AquaPure</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#crisis">The Crisis</a></li>
+            <li><a href="#stages">Treatment</a></li>
+            <li><a href="#prototype">Prototype</a></li>
+            <li><a href="#team">Team</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in">
+            <h1>Sustainable Water Purification</h1>
+            <p class="subtitle">A Low-Cost Filtration System</p>
+            <blockquote class="quote">"Pure water is the world’s first and foremost medicine."<br><span class="author">–
+                    Slovakian Proverb</span></blockquote>
+            <a href="#about" class="btn">Discover More</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">About The Project</h2>
+            <p class="text-center max-w">This project focuses on addressing water scarcity and contamination by
+                designing a low-cost, multi-stage water purifier using accessible materials like activated carbon, sand,
+                and gravel. The objective is to convert non-potable "dirty" water into usable water for domestic
+                purposes. Findings indicate a significant reduction in turbidity and chemical impurities, proving the
+                system's viability for rural or emergency applications.</p>
+        </div>
+    </section>
+
+    <section id="crisis" class="section dark">
+        <div class="container reveal">
+            <h2 class="section-title">Global Water Crisis</h2>
+            <p class="text-center max-w mb-4">As of 2026, the world is facing what the UN calls "Global Water
+                Bankruptcy."</p>
+
+            <div class="grid grid-2">
+                <div class="card glass">
+                    <h3>Scarcity</h3>
+                    <p>Over 4 billion people experience severe water scarcity for at least one month per year.</p>
+                </div>
+                <div class="card glass">
+                    <h3>Safety Gap</h3>
+                    <p>Approximately 2.2 billion people still lack access to safely managed drinking water.</p>
+                </div>
+                <div class="card glass">
+                    <h3>Depletion</h3>
+                    <p>50% of the world's large lakes have lost water volume since the 1990s, and 70% of major aquifers
+                        are in decline.</p>
+                </div>
+                <div class="card glass">
+                    <h3>Economic Impact</h3>
+                    <p>The annual global cost of drought has reached approximately $307 billion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stages" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">Stages of Treatment</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">1</div>
+                    <div class="timeline-content">
+                        <h3>Preliminary Screening</h3>
+                        <p>Physical barriers like bar screens prevent sticks, plastics, and dead organic matter from
+                            entering, protecting mechanical pumps.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">2</div>
+                    <div class="timeline-content">
+                        <h3>Aeration</h3>
+                        <p>Water is saturated with oxygen to "degas" it, releasing hydrogen sulphide and oxidizing
+                            dissolved iron and manganese.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">3</div>
+                    <div class="timeline-content">
+                        <h3>Coagulation & Flocculation</h3>
+                        <p>Chemicals like Alum neutralize dirt particles. Gentle stirring encourages neutralized
+                            particles to collide and stick, forming "flocs."</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">4</div>
+                    <div class="timeline-content">
+                        <h3>Sedimentation</h3>
+                        <p>In a quiet basin, heavy flocs settle to the bottom as sludge via gravity, while clear
+                            effluent water moves to the next stage.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">5</div>
+                    <div class="timeline-content">
+                        <h3>Multi-Media Filtration</h3>
+                        <p>Water passes through layers (Anthracite, Sand, Gravel) to trap particles, highly effective at
+                            removing "turbidity" (cloudiness).</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">6</div>
+                    <div class="timeline-content">
+                        <h3>Adsorption (Activated Carbon)</h3>
+                        <p>Granular Activated Carbon pulls out pesticides, industrial solvents, and chlorine taste like
+                            a "chemical magnet."</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">7</div>
+                    <div class="timeline-content">
+                        <h3>Disinfection</h3>
+                        <p>The final critical safety stage kills pathogens via Chlorination, UV Radiation, or Ozonation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prototype" class="section bg-light">
+        <div class="container reveal">
+            <h2 class="section-title">The Prototype</h2>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Design Features</h3>
+                    <ul class="list">
+                        <li><strong>The Vessel:</strong> Clear acrylic cylinder for visibility.</li>
+                        <li><strong>The Intake:</strong> Small 5V or 12V DC water pump.</li>
+                        <li><strong>Real-Time Monitoring:</strong> Integrated pH probe (Ideal pH = 7.0 &plusmn; 0.5).
+                        </li>
+                        <li><strong>Backwashing Feature:</strong> Reverse clean water flow to remove sludge.</li>
+                        <li><strong>Post-Filtration Disinfection:</strong> Final treatment with chlorine drops (Sodium
+                            Hypochlorite) to eliminate microscopic pathogens and ensure drinking safety.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Materials Used</h3>
+                    <ul class="list">
+                        <li><strong>Structural:</strong> Plastic Bottle, Collection Container, Coffee
+                            Filter/Cheesecloth.</li>
+                        <li><strong>Filtration Media:</strong> Activated Charcoal, Fine Sand, Coarse Sand, Gravel.</li>
+                        <li><strong>Testing:</strong> Contaminated Water Sample, pH Meter, TDS Meter.</li>
+                        <li><strong>Chemical Purifier:</strong> Unscented Chlorine Drops or Water Purification Tablets.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="subsection-title mt-4">Water Quality Indicators</h3>
+            <div class="indicators">
+                <div class="indicator">
+                    <h4>BOD</h4>
+                    <p>Biochemical Oxygen Demand. High BOD = High Pollution.</p>
+                </div>
+                <div class="indicator">
+                    <h4>DO</h4>
+                    <p>Dissolved Oxygen. Healthy water > 5 mg/L.</p>
+                </div>
+                <div class="indicator">
+                    <h4>Hardness</h4>
+                    <p>Calcium & Magnesium concentration.</p>
+                </div>
+                <div class="indicator">
+                    <h4>Coliform</h4>
+                    <p>Test for E. coli indicating contamination.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="team" class="footer">
+        <div class="container reveal">
+            <h2 class="section-title text-white">Project Credits</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h4>Manoj</h4>
+                    <p>Scientific research on pollutants, testing protocols for pH/TDS, and validation against safety
+                        standards.</p>
+                </div>
+                <div class="team-member">
+                    <h4>Raja</h4>
+                    <p>Conceptualizing physical prototype, engineering filtration layers, and managing mechanical
+                        assembly.</p>
+                </div>
+                <div class="team-member">
+                    <h4>Nikhilesh</h4>
+                    <p>Building project website, creating data visualizations, and organizing digital documentation.</p>
+                </div>
+                <div class="team-member">
+                    <h4>Bhavan Narayan</h4>
+                    <p>Sourcing filter media, environmental impact assessment, and long-term sustainability reports.</p>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 AquaPure Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
